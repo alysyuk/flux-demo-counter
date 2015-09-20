@@ -1,0 +1,1 @@
+Just a simple application to understand the logic of flux architecture and reactjs library

@@ -1,0 +1,27 @@
+{
+  "name": "flux-demo-counter",
+  "version": "1.0.0",
+  "description": "Simple flux app",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d js/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "reactify": "^1.1.1",
+    "watchify": "^3.2.2"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "author": "alysyuk"
+}
